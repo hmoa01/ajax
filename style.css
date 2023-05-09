@@ -7,3 +7,8 @@
 nav a {
   cursor: pointer;
 }
+
+thead {
+  background-color: salmon;
+  color: white;
+}

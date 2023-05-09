@@ -70,7 +70,6 @@ function displayPlanets() {
 }
 
 function displayTable(data) {
-  console.log(data);
   let html = `<tr>`;
   let first = data[0];
   for (key in first) {
@@ -88,5 +87,4 @@ function displayTable(data) {
     html += `</tr>`;
     tBody.innerHTML = html;
   });
-  return data;
 }
